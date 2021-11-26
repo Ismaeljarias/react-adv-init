@@ -1,6 +1,5 @@
 import { Link, Navigate, useRoutes } from "react-router-dom";
-import { LazyPage1, LazyPage2 } from "../pages";
-import LazyPage3 from "../pages/LazyPage3";
+import { LazyPage1, LazyPage2, LazyPage3 } from "../pages";
 
 const lazyRoutes = [
   {
@@ -26,7 +25,7 @@ export const Navigation = () => {
 
   return (
     <>
-      <h2>LazyLayout pages</h2>
+      <h1>LazyLayout pages</h1>
       <ul>
         <li>
           <Link to="lazy1">Lazy Page 1</Link>
